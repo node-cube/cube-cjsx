@@ -1,0 +1,30 @@
+{
+  "author": "PerterPon<PerterPon@gmail.com>",
+  "name": "cube-cjsx",
+  "description": "the coffee react processor for cube",
+  "version": "1.0.2",
+  "homepage": "https://github.com/node-cube/cube-cjsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-cube/cube-cjsx"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -r jscoverage --coverage 70,80,95 -R spec test"
+  },
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "dependencies": {
+    "coffee-script": "1.9.1",
+    "coffee-react-transform": "3.1.0",
+    "uglify-js": "2.4.15",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "jscoverage": "0.5.x",
+    "mocha": "1.20.1",
+    "expect.js": "0.3.1"
+  },
+  "optionalDependencies": {}
+}
